@@ -134,3 +134,5 @@ body[class*="schedule"] table.table.day2 tr:nth-of-type(15) { background-color: 
 /* 16    * - 15:55 - Lightning Talks */
 /* 17    * - 16:55 - Keynote: Tiwa York */
 /* 18    * - 17:40 - Closing */
+body[class*="path-2018"] .body-content{ position: relative; }
+body[class*="path-2018"] .body-content::before { display: block; position: absolute; top: 150px; right: -100px; width: 400px; height: 50px; line-height: 50px; text-align: center; opacity: 0.7; transform: rotate(45deg); font-size: 24px; font-weight: 700; color: white; background-color: red; border: 1px solid white; z-index: 500; content: "Archived 2018"; }
